@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    border: 1px solid #f0f0f1;
+}
+
+table thead tr th {
+    line-height: 30px;
+    white-space: nowrap;
+    text-align: center;
+    font-weight: 400;
+    padding: 2px 5px;
+    height: 34px;
+    position: relative;
+    background-color: #edecf2;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+table tbody tr {
+    background-color: #fff;
+    border-bottom: 1px solid #F0F0F1;
+}
+
+table tbody tr td {
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 30px;
+    height: 40px;
+    white-space: nowrap;
+}
