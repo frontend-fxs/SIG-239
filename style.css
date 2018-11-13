@@ -1,33 +1,149 @@
-table {
+﻿.fxs_div_table {
     width: 100%;
     min-width: 100%;
     max-width: 100%;
     border: 1px solid #f0f0f1;
 }
 
-table thead tr th {
-    line-height: 30px;
-    white-space: nowrap;
-    text-align: center;
-    font-weight: 400;
-    padding: 2px 5px;
-    height: 34px;
-    position: relative;
-    background-color: #edecf2;
-    text-transform: uppercase;
-    font-size: 12px;
+    .fxs_div_table .fxs_div_head .fxs_div_cell {
+        line-height: 30px;
+        white-space: nowrap;
+        font-weight: 400;
+        padding: 2px 5px;
+        height: 34px;
+        position: relative;
+        background-color: #edecf2;
+        text-transform: uppercase;
+        font-size: 12px;
+        float: left;
+    }
+
+    .fxs_div_table .fxs_div_row {
+        width: 100%;
+        clear: both;
+        float: left;
+    }
+
+    .fxs_div_table .fxs_div_body .fxs_div_row {
+        background-color: #fff;
+        border-bottom: 1px solid #F0F0F1;
+    }
+
+        .fxs_div_table .fxs_div_body .fxs_div_row:hover,
+        .fxs_div_table .fxs_div_body .fxs_div_row.fxs_highlighted {
+            background-color: #F0F0F1;
+        }
+
+        .fxs_div_table .fxs_div_body .fxs_div_row.fxs_highlighted {
+            border-bottom: 1px solid #fff;
+        }
+
+            .fxs_div_table .fxs_div_body .fxs_div_row.fxs_highlighted:hover {
+                background-color: #fff;
+            }
+
+        .fxs_div_table .fxs_div_body .fxs_div_row .fxs_div_cell {
+            float: left;
+        }
+
+        .fxs_div_table .fxs_div_body .fxs_div_row .fxs_div_cell {
+            float: left;
+            line-height: 20px;
+            padding: 5px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+            .fxs_div_table .fxs_div_body .fxs_div_row .fxs_div_cell label,
+            .fxs_div_table .fxs_div_body .fxs_div_row .fxs_div_cell span {
+                width: 100%;
+            }
+
+            .fxs_div_table .fxs_div_body .fxs_div_row .fxs_div_cell label {
+                font-weight: 300
+            }
+
+    .fxs_div_table .fxs_div_cell {
+        float: left;
+    }
+
+        .fxs_div_table .fxs_div_cell.fxs_pair_cell {
+            text-align: center;
+        }
+
+        .fxs_div_table .fxs_div_cell.fxs_event_cell {
+            text-align: left;
+            min-width: 80%;
+        }
+
+        .fxs_div_table .fxs_div_cell.fxs_trigger_lo_cell,
+        .fxs_div_table .fxs_div_cell.fxs_trigger_hi_cell {
+            text-align: center;
+            width: 29%;
+        }
+
+        .fxs_div_table .fxs_div_cell.fxs_actual_cell {
+            text-align: center;
+            width: 18%;
+        }
+
+        .fxs_div_table .fxs_div_cell.fxs_time_cell {
+            text-align: center;
+            width: 24%;
+        }
+
+        .fxs_div_table .fxs_div_cell.fxs_side_cell {
+            text-align: center;
+            width: 100%;
+        }
+
+    .fxs_div_table .fxs_div_body .fxs_div_cell.fxs_side_cell.fxs_bg_success_clr,
+    .fxs_div_table .fxs_div_body .fxs_div_cell.fxs_side_cell.fxs_bg_error_clr {
+        color: #FFF;
+    }
+
+@media(min-width:450px) {
+    .fxs_div_table .fxs_div_cell.fxs_trigger_lo_cell,
+    .fxs_div_table .fxs_div_cell.fxs_trigger_hi_cell,
+    .fxs_div_table .fxs_div_cell.fxs_actual_cell,
+    .fxs_div_table .fxs_div_cell.fxs_time_cell,
+    .fxs_div_table .fxs_div_cell.fxs_side_cell {
+        width: 20%;
+    }
+
+    .fxs_div_table .fxs_div_cell.fxs_side_cell {
+        margin-top: 15px;
+    }
 }
 
-table tbody tr {
-    background-color: #fff;
-    border-bottom: 1px solid #F0F0F1;
-}
+@media(min-width:920px) {
+    .fxs_div_table .fxs_div_cell.fxs_pair_cell {
+        width: 9%;
+    }
 
-table tbody tr td {
-    padding: 5px;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 30px;
-    height: 40px;
-    white-space: nowrap;
+    .fxs_div_table .fxs_div_cell.fxs_event_cell {
+        width: 42%;
+        min-width: 42%;
+    }
+
+    .fxs_div_table .fxs_div_cell.fxs_trigger_lo_cell,
+    .fxs_div_table .fxs_div_cell.fxs_trigger_hi_cell {
+        width: 11%;
+        text-align: right;
+    }
+
+    .fxs_div_table .fxs_div_cell.fxs_actual_cell {
+        width: 9%;
+        text-align: right;
+    }
+
+    .fxs_div_table .fxs_div_cell.fxs_time_cell {
+        width: 9%;
+        text-align: left;
+    }
+
+    .fxs_div_table .fxs_div_cell.fxs_side_cell {
+        width: 9%;
+        margin-top: 0;
+    }
 }
