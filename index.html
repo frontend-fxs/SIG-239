@@ -1,4 +1,4 @@
-﻿<html lang="en" class="">
+﻿<html lang="en">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,300italic,400italic,500italic,700,700italic" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://staticcontentqa.blob.core.windows.net/website/css/fxs_screen.css" rel="stylesheet">
-    <!--<link rel="stylesheet" href="../../website/css/fxs_screen.css">-->
+    <!-- <link rel="stylesheet" href="../../website/css/fxs_screen.css"> -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
@@ -84,12 +84,21 @@
                             </header>
                             <hr class="fxs_divider_wide" />
                             <div class="fxs_div_table">
-                                <div class="fxs_bg_light_4_clr fxs_div_head fxs_hidden_mm">
+                                <div class="fxs_bg_light_4_clr fxs_div_head">
                                     <div class="fxs_div_cell fxs_pair_cell"> PAIR </div>
                                     <div class="fxs_div_cell fxs_event_cell"> EVENT </div>
-                                    <div class="fxs_div_cell fxs_actual_cell"> ACTUAL </div>
-                                    <div class="fxs_div_cell fxs_trigger_lo_cell"> TRIGGER LO </div>
-                                    <div class="fxs_div_cell fxs_trigger_hi_cell"> TRIGGER HI </div>
+                                    <div class="fxs_div_cell fxs_actual_cell">
+                                        <span> ACTUAL DEV </span>
+                                        <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span>
+                                    </div>
+                                    <div class="fxs_div_cell fxs_trigger_lo_cell">
+                                        <span>TRIGGER LO</span>
+                                        <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span>
+                                    </div>
+                                    <div class="fxs_div_cell fxs_trigger_hi_cell">
+                                        <span>TRIGGER HI</span>
+                                        <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span>
+                                    </div>
                                     <div class="fxs_div_cell fxs_time_cell"> TIME </div>
                                     <div class="fxs_div_cell fxs_side_cell"> SIDE </div>
                                 </div>
@@ -97,55 +106,55 @@
                                     <div class="fxs_div_row fxs_highlighted">
                                         <div class="fxs_div_cell fxs_pair_cell"> EURUSD </div>
                                         <div class="fxs_div_cell fxs_event_cell"> Consumer Price Index (YOY)(EUROPEAN MONETARY UNION) </div>
-                                        <div class="fxs_div_cell fxs_actual_cell"> <label class="fxs_visible_mm"> ACTUAL </label> <span> 250 </span> </div>
-                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_lo_cell"> <label class="fxs_visible_mm"> TRIGGER LO </label> <span> 2,12 </span> </div>
-                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_hi_cell"> <label class="fxs_visible_mm"> TRIGGER HI </label> <span> 2,26 </span> </div>
-                                        <div class="fxs_div_cell fxs_time_cell"> <label class="fxs_visible_mm"> TIME </label> <span> Recent </span> </div>
+                                        <div class="fxs_div_cell fxs_actual_cell"> <label> <span> ACTUAL DEV </span> <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span></label> <span> 250 </span> </div>
+                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_lo_cell"> <label> <span> TRIGGER LO </span> <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span></label> <span> 2,12 (2,12)</span> </div>
+                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_hi_cell"> <label> <span> TRIGGER HI </span> <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span></label> <span> 2,26 | 2,26</span> </div>
+                                        <div class="fxs_div_cell fxs_time_cell"> <label> TIME </label> <span> Recent </span> </div>
                                         <div class="fxs_div_cell fxs_side_cell"> -- </div>
                                     </div>
                                     <div class="fxs_div_row fxs_highlighted">
                                         <div class="fxs_div_cell fxs_pair_cell"> EURUSD </div>
                                         <div class="fxs_div_cell fxs_event_cell"> Consumer Price Index (YOY)(EUROPEAN MONETARY UNION) </div>
-                                        <div class="fxs_div_cell fxs_actual_cell"> <label class="fxs_visible_mm"> ACTUAL </label> <span> 250 </span> </div>
-                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_lo_cell"> <label class="fxs_visible_mm"> TRIGGER LO </label> <span> 2,12 </span> </div>
-                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_hi_cell"> <label class="fxs_visible_mm"> TRIGGER HI </label> <span> 2,26 </span> </div>
-                                        <div class="fxs_div_cell fxs_time_cell"> <label class="fxs_visible_mm"> TIME </label> <span> Recent </span> </div>
+                                        <div class="fxs_div_cell fxs_actual_cell"> <label> <span> ACTUAL DEV </span>  <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span></label> <span> 250 </span> </div>
+                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_lo_cell"> <label> <span> TRIGGER LO </span> <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span></label> <span> 2,12 (2,12)</span> </div>
+                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_hi_cell"> <label> <span> TRIGGER HI </span> <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span></label> <span>  2,26 | 2,26 </span> </div>
+                                        <div class="fxs_div_cell fxs_time_cell"> <label> TIME </label> <span> Recent </span> </div>
                                         <div class="fxs_div_cell fxs_side_cell fxs_bg_success_clr"> Buy </div>
                                     </div>
                                     <div class="fxs_div_row fxs_highlighted">
                                         <div class="fxs_div_cell fxs_pair_cell"> EURUSD </div>
                                         <div class="fxs_div_cell fxs_event_cell"> Consumer Price Index (YOY)(EUROPEAN MONETARY UNION) </div>
-                                        <div class="fxs_div_cell fxs_actual_cell"> <label class="fxs_visible_mm"> ACTUAL </label> <span> 250 </span> </div>
-                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_lo_cell"> <label class="fxs_visible_mm"> TRIGGER LO </label> <span> 2,12 </span> </div>
-                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_hi_cell"> <label class="fxs_visible_mm"> TRIGGER HI </label> <span> 2,26 </span> </div>
-                                        <div class="fxs_div_cell fxs_time_cell"> <label class="fxs_visible_mm"> TIME </label> <span> Recent </span> </div>
+                                        <div class="fxs_div_cell fxs_actual_cell"> <label>  <span> ACTUAL DEV </span>  <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span></label> <span> 250 </span> </div>
+                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_lo_cell"> <label> <span> TRIGGER LO </span> <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span></label> <span> 2,12 (2,12) </span> </div>
+                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_hi_cell"> <label> <span> TRIGGER HI </span> <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span></label> <span>  2,26 | 2,26 </span> </div>
+                                        <div class="fxs_div_cell fxs_time_cell"> <label> TIME </label> <span> Recent </span> </div>
                                         <div class="fxs_div_cell fxs_side_cell"> -- </div>
                                     </div>
                                     <div class="fxs_div_row">
                                         <div class="fxs_div_cell fxs_pair_cell"> EURUSD </div>
                                         <div class="fxs_div_cell fxs_event_cell"> Consumer Price Index (YOY)(EUROPEAN MONETARY UNION) </div>
-                                        <div class="fxs_div_cell fxs_actual_cell"> <label class="fxs_visible_mm"> ACTUAL </label> <span> </span> </div>
-                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_lo_cell"> <label class="fxs_visible_mm"> TRIGGER LO </label> <span> 2,12 </span> </div>
-                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_hi_cell"> <label class="fxs_visible_mm"> TRIGGER HI </label> <span> 2,26 </span> </div>
-                                        <div class="fxs_div_cell fxs_time_cell"> <label class="fxs_visible_mm"> TIME </label> <span> 16h 26m </span> </div>
+                                        <div class="fxs_div_cell fxs_actual_cell"> <label>  <span> ACTUAL DEV </span>  <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span></label> <span> </span> </div>
+                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_lo_cell"> <label> <span> TRIGGER LO </span> <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span></label> <span> 2,12 (2,12) </span> </div>
+                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_hi_cell"> <label> <span> TRIGGER HI </span> <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span></label> <span>  2,26 | 2,26 </span> </div>
+                                        <div class="fxs_div_cell fxs_time_cell"> <label> TIME </label> <span> 16h 26m </span> </div>
                                         <div class="fxs_div_cell fxs_side_cell"> -- </div>
                                     </div>
                                     <div class="fxs_div_row">
                                         <div class="fxs_div_cell fxs_pair_cell"> EURUSD </div>
                                         <div class="fxs_div_cell fxs_event_cell"> Consumer Price Index (YOY)(EUROPEAN MONETARY UNION) </div>
-                                        <div class="fxs_div_cell fxs_actual_cell"> <label class="fxs_visible_mm"> ACTUAL </label> <span> </span> </div>
-                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_lo_cell"> <label class="fxs_visible_mm"> TRIGGER LO </label> <span> 2,12 </span> </div>
-                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_hi_cell"> <label class="fxs_visible_mm"> TRIGGER HI </label> <span> 2,26 </span> </div>
-                                        <div class="fxs_div_cell fxs_time_cell"> <label class="fxs_visible_mm"> TIME </label> <span> 16h 26m </span> </div>
+                                        <div class="fxs_div_cell fxs_actual_cell"> <label>  <span> ACTUAL DEV </span>  <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span></label> <span> </span> </div>
+                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_lo_cell"> <label> <span> TRIGGER LO </span> <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span></label> <span> 2,12 (2,12) </span> </div>
+                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_hi_cell"> <label> <span> TRIGGER HI </span> <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span></label> <span>  2,26 | 2,26 </span> </div>
+                                        <div class="fxs_div_cell fxs_time_cell"> <label> TIME </label> <span> 16h 26m </span> </div>
                                         <div class="fxs_div_cell fxs_side_cell fxs_bg_error_clr"> Sell </div>
                                     </div>
                                     <div class="fxs_div_row">
                                         <div class="fxs_div_cell fxs_pair_cell"> EURUSD </div>
                                         <div class="fxs_div_cell fxs_event_cell"> Consumer Price Index (YOY)(EUROPEAN MONETARY UNION) </div>
-                                        <div class="fxs_div_cell fxs_actual_cell"> <label class="fxs_visible_mm"> ACTUAL </label> <span> </span> </div>
-                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_lo_cell"> <label class="fxs_visible_mm"> TRIGGER LO </label> <span> 2,12 </span> </div>
-                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_hi_cell"> <label class="fxs_visible_mm"> TRIGGER HI </label> <span> 2,26 </span> </div>
-                                        <div class="fxs_div_cell fxs_time_cell"> <label class="fxs_visible_mm"> TIME </label> <span> 16h 26m </span> </div>
+                                        <div class="fxs_div_cell fxs_actual_cell"> <label>  <span> ACTUAL DEV </span>  <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span></label> <span> </span> </div>
+                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_lo_cell"> <label> <span> TRIGGER LO </span> <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span></label> <span> 2,12 (2,12) </span> </div>
+                                        <div class="fxs_txt_right fxs_div_cell fxs_trigger_hi_cell"> <label> <span> TRIGGER HI </span> <span class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Tooltip on right"></span> </label> <span>  2,26 | 2,26 </span> </div>
+                                        <div class="fxs_div_cell fxs_time_cell"> <label> TIME </label> <span> 16h 26m </span> </div>
                                         <div class="fxs_div_cell fxs_side_cell"> -- </div>
                                     </div>
                                 </div>
@@ -156,6 +165,11 @@
             </div>
         </div>
     </div>
+    <script>
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip()
+        });
+    </script>
 </body>
 
 </html>
