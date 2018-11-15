@@ -144,6 +144,7 @@
         width: 11%;
         text-align: left;
     }
+    .fxs_div_table .fxs_div_body .fxs_div_row .fxs_div_cell.fxs_side_cell,
     .fxs_div_table .fxs_div_cell.fxs_side_cell {
         width: 11%;
         margin-top: 0;
