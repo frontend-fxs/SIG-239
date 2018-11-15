@@ -63,47 +63,42 @@
     width: 100%;
 }
 
-.fxs_div_table .fxs_div_body .fxs_div_row .fxs_div_cell label {
-    font-weight: 300
+.fxs_div_table .fxs_div_body .fxs_div_row .fxs_div_cell>label {
+    font-weight: 300;
+    white-space: nowrap;
 }
 
 .fxs_div_table .fxs_div_cell {
     float: left;
 }
 
-.fxs_div_table .fxs_div_cell label {
-    white-space: nowrap;
-    display: none;
+.fxs_div_table .fxs_div_cell sup.fa.fa-info-circle {
+    margin-left: 5px;
+    vertical-align: super;
 }
 
 .fxs_div_table .fxs_div_cell.fxs_pair_cell {
     text-align: center;
+    width: 20%;
 }
 
 .fxs_div_table .fxs_div_cell.fxs_event_cell {
     text-align: left;
-    min-width: 80%;
+    width: 80%;
 }
 
 .fxs_div_table .fxs_div_cell.fxs_trigger_lo_cell,
-.fxs_div_table .fxs_div_cell.fxs_trigger_hi_cell {
-    text-align: center;
-    width: 29%;
-}
-
-.fxs_div_table .fxs_div_cell.fxs_actual_cell {
-    text-align: center;
-    width: 18%;
-}
-
+.fxs_div_table .fxs_div_cell.fxs_trigger_hi_cell,
+.fxs_div_table .fxs_div_cell.fxs_actual_cell,
 .fxs_div_table .fxs_div_cell.fxs_time_cell {
     text-align: center;
-    width: 24%;
+    width: 50%;
 }
 
-.fxs_div_table .fxs_div_cell.fxs_side_cell {
+.fxs_div_table .fxs_div_body .fxs_div_row .fxs_div_cell.fxs_side_cell {
     text-align: center;
-    width: 100%;
+    width: 100px;
+    float: right;
 }
 
 .fxs_div_table .fxs_div_body .fxs_div_cell.fxs_side_cell.fxs_bg_success_clr,
@@ -111,16 +106,13 @@
     color: #FFF;
 }
 
-@media(min-width:450px) {
+@media(min-width:540px) {
     .fxs_div_table .fxs_div_cell.fxs_trigger_lo_cell,
     .fxs_div_table .fxs_div_cell.fxs_trigger_hi_cell,
     .fxs_div_table .fxs_div_cell.fxs_actual_cell,
     .fxs_div_table .fxs_div_cell.fxs_time_cell,
     .fxs_div_table .fxs_div_cell.fxs_side_cell {
         width: 20%;
-    }
-    .fxs_div_table .fxs_div_cell.fxs_side_cell {
-        margin-top: 15px;
     }
 }
 
@@ -136,24 +128,24 @@
         width: 9%;
     }
     .fxs_div_table .fxs_div_cell.fxs_event_cell {
-        width: 42%;
-        min-width: 42%;
+        width: 41%;
+        min-width: 40%;
     }
     .fxs_div_table .fxs_div_cell.fxs_trigger_lo_cell,
     .fxs_div_table .fxs_div_cell.fxs_trigger_hi_cell {
-        width: 11%;
+        width: 10%;
         text-align: right;
     }
     .fxs_div_table .fxs_div_cell.fxs_actual_cell {
-        width: 9%;
+        width: 10%;
         text-align: right;
     }
     .fxs_div_table .fxs_div_cell.fxs_time_cell {
-        width: 9%;
+        width: 10%;
         text-align: left;
     }
     .fxs_div_table .fxs_div_cell.fxs_side_cell {
-        width: 9%;
+        width: 10%;
         margin-top: 0;
     }
 }
